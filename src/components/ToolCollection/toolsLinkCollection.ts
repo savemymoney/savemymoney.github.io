@@ -5,4 +5,10 @@ export const linkCollection = [
     linkText: 'Compare Prices',
     description: 'Compare prices per unit and pick the best value',
   },
+  {
+    title: 'Returns Calculator',
+    href: '/return-calculator',
+    linkText: 'Calculate Returns',
+    description: 'Calculate returns for X % over Y years',
+  },
 ]
