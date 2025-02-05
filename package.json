@@ -1,15 +1,12 @@
 {
   "name": "savemymoney",
-  "version": "0.1.0",
-  "homepage": "https://savemymoney.github.io",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out --nojekyll"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
