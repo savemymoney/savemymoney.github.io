@@ -122,7 +122,7 @@ const UnitPriceCalculator: React.FC = () => {
               id={`item-${index + 1}-price`}
               value={item.price}
               onChange={(e) => updateItem(index, 'price', e.target.value)}
-              className={classNames(inputClasses, 'text-right')}
+              className={inputClasses}
             />
             <input
               type='number'
@@ -130,7 +130,7 @@ const UnitPriceCalculator: React.FC = () => {
               id={`item-${index + 1}-quantity`}
               value={item.quantity}
               onChange={(e) => updateItem(index, 'quantity', e.target.value)}
-              className={classNames(inputClasses, 'text-right')}
+              className={inputClasses}
             />
             <select
               id={`item-${index + 1}-unit`}
